@@ -41,6 +41,8 @@ namespace PortfolioProject.Migrations
                     b.Property<string>("Tools")
                         .HasColumnType("nvarchar(max)");
 
+                   
+
                     b.HasKey("Id");
 
                     b.ToTable("Project");

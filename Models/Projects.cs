@@ -21,5 +21,6 @@ namespace PortfolioProject.Models
             public DateTime EndDate { get; set; }
             public string Tools { get; set; }
             public string Languages { get; set; }
+        
         }
     }
